@@ -1,0 +1,15 @@
+.header{
+    height: 80px;
+    background-color: rgba(48, 32, 105, 1) ;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    &__logo {
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        span {
+            color: rgba(149, 40, 40, 1);
+        }
+    }
+}
