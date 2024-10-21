@@ -15,3 +15,8 @@
 body{
     font-family: "JetBrains Mono", monospace;
 }
+
+.height-page{
+    height: calc( 100vh - 80px);
+    background-color: aqua;
+}

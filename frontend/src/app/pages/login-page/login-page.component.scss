@@ -1,0 +1,27 @@
+.login-content{
+    &__art{
+        width: 500px;
+        img{
+            border-radius: 20px 0px 0px 20px;
+        }
+    }
+
+    &__container{
+        background-color: white;
+    }
+    &__container-title{
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 20px;
+        span{
+            color: rgba(149, 40, 40, 1)
+        }
+    }
+    &__container-welcome{
+        font-weight: bold;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+}
+
+
