@@ -7,12 +7,13 @@
     }
 
     &__container{
-        background-color: white;
+        background-color: #eaeaea;
+        border-radius: 0px 10px 10px 0px;
     }
     &__container-title{
         font-weight: bold;
         font-size: 24px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         span{
             color: rgba(149, 40, 40, 1)
         }
@@ -20,7 +21,7 @@
     &__container-welcome{
         font-weight: bold;
         font-size: 32px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 }
 

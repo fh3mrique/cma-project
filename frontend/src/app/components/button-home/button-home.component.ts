@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-button-home',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./button-home.component.scss']
 })
 export class ButtonHomeComponent {
-
+  @Input({ required: true }) text: string = '';
 }
