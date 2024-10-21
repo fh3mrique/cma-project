@@ -13,4 +13,10 @@
             color: rgba(149, 40, 40, 1);
         }
     }
+
+    @media (max-width: 390px) {
+        &__logo {
+            font-size: 19px;
+        }
+    }
 }

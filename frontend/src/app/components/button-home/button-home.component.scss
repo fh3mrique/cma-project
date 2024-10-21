@@ -1,0 +1,14 @@
+.btn-home{
+    background-color: rgba(22, 21, 26, 1);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 5px;
+
+
+    @media (min-width: 1200px) {
+        font-size: 32px;
+        padding: 20px;
+    }
+}
