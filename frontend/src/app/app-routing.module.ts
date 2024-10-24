@@ -2,13 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { PrincipalHomeComponent } from './pages/principal-home/principal-home.component';
 
 const routes: Routes = [
   {
     path: '',
     title: 'Home',
     pathMatch: 'full',
-    redirectTo: 'login'
+    redirectTo: 'home'
   },
   {
     path: 'home',
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path: 'login',
     component: LoginPageComponent
+  },
+  {
+    path: 'principal',
+    component: PrincipalHomeComponent
   }
 ];
 

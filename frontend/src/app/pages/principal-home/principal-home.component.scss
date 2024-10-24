@@ -1,0 +1,17 @@
+.nav-bar {
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: calc( 100vh - 190px);
+
+    &__image {
+        img {
+            width: 134px;
+            height: 134px;
+            border-radius: 100%;
+
+        }
+
+    }
+}
