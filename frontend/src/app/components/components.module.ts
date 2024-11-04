@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { ButtonHomeComponent } from './button-home/button-home.component';
 import { DefaultInputComponent } from './default-input/default-input.component';
+import { QuestionnaireComponent } from './questionnaire/questionnaire.component';
 
 
 
@@ -10,7 +11,8 @@ import { DefaultInputComponent } from './default-input/default-input.component';
   declarations: [
     HeaderComponent,
     ButtonHomeComponent,
-    DefaultInputComponent
+    DefaultInputComponent,
+    QuestionnaireComponent
   ],
   imports: [
     CommonModule,
