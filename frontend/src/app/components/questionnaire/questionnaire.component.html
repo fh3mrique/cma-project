@@ -1,1 +1,14 @@
-<p>questionnaire works!</p>
+<div *ngIf="!isCompleted">
+    <div class="question-container">
+      <h2>{{ questions[currentQuestionIndex].text }}</h2>
+      <div *ngFor="let option of questions[currentQuestionIndex].options">
+        <button (click)="answerQuestion(option.letter)">
+          {{ option.letter }}. {{ option.answer }}
+        </button>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="isCompleted" class="completion-message">
+    <h3>Questionário concluído! Obrigado por responder.</h3>
+  </div>
+  

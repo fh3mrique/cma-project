@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { PrincipalHomeComponent } from './pages/principal-home/principal-home.component';
+import { QuestionnaireComponent } from './components/questionnaire/questionnaire.component';
 
 const routes: Routes = [
   {
@@ -23,7 +24,11 @@ const routes: Routes = [
   {
     path: 'principal',
     component: PrincipalHomeComponent
-  }
+  },
+  {
+    path: 'q',
+    component: QuestionnaireComponent
+  },
 ];
 
 @NgModule({
