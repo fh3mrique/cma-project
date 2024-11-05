@@ -1,0 +1,19 @@
+.questions-page-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+    &__title {
+        color: blue;
+        margin-bottom: 60px;
+        h1 {
+            
+            font-size: 90px;
+            font-weight: bold;
+        }
+        h3{
+            font-size: 13px;
+        }
+    }
+}

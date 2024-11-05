@@ -20,7 +20,8 @@ import { QuestionnaireComponent } from './questionnaire/questionnaire.component'
   exports: [
     HeaderComponent,
     ButtonHomeComponent,
-    DefaultInputComponent
+    DefaultInputComponent,
+    QuestionnaireComponent
   ]
 })
 export class ComponentsModule { }
