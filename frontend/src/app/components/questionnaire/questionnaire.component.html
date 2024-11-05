@@ -1,6 +1,7 @@
 <div *ngIf="!isCompleted">
   <div class="question-container">
-    <h2>{{ questions[currentQuestionIndex].text }}</h2>
+    
+    <h2>{{questions[currentQuestionIndex].id}}. {{ questions[currentQuestionIndex].text }}</h2>
     <div *ngFor="let option of questions[currentQuestionIndex].options">
       <button (click)="answerQuestion(option.letter)">
         {{ option.letter }}. {{ option.answer }}
