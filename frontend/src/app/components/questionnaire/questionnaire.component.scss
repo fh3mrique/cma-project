@@ -51,3 +51,33 @@
   font-size: 1.5em;
   color: #4CAF50;
 }
+
+
+
+
+
+
+
+
+
+.question-container {
+  margin: 20px;
+}
+
+button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.completion-message {
+  text-align: center;
+  margin-top: 20px;
+}
+
+canvas {
+  max-width: 100%;
+  margin: 0 auto;
+}
