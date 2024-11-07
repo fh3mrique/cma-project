@@ -27,7 +27,7 @@ const routes: Routes = [
     component: PrincipalHomeComponent
   },
   {
-    path: 'q',
+    path: 'vark-questionare',
     component: QuestionsPageComponent
   },
 ];
