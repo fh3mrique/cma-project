@@ -11,9 +11,45 @@
 .sidenav {
     height: 100%; /* Faz o mat-drawer ocupar toda a altura do container */
     background-color: #f4f4f4; /* Cor de fundo opcional */
+    width: 25%;
+    border: none !important;
 }
 
 .sidenav-content {
     padding: 16px;
     flex-grow: 1; /* Expande o conteúdo restante */
+}
+
+.listitem{
+    cursor: pointer !important;
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.top-image-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+
+    &__name{
+        font-weight: bold;
+        font-size: 15px
+    }
+    &__address{
+        font-weight: 10px;
+        color: rgba(0, 0, 0, 0.507)
+        ;
+    }
+}
+.top-image-menu img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.list-itens-nav{
+    /* background-color: aqua; */
 }

@@ -1,12 +1,17 @@
 <div class="principal-home">
     <mat-drawer-container class="example-container" autosize>
         <mat-drawer #drawer class="sidenav" mode="side">
-            
-            <mat-list role="list">
-                <mat-list-item role="listitem">Dashboard</mat-list-item>
-                <mat-list-item role="listitem">Minhas Coreografias</mat-list-item>
-                <mat-list-item role="listitem">
-
+            <div class="top-image-menu">
+                <img src="../../../assets/images/lhama.png" alt="">
+                <p class="top-image-menu__name">Senhor Inhama da Silva</p>
+                <p class="top-image-menu__address">Pernambuco, BR</p>
+            </div>
+            <mat-list role="list" class="list-itens-nav">
+                <mat-list-item role="listitem" class="listitem">
+                    Dashboard
+                </mat-list-item>
+                <mat-list-item role="listitem" class="listitem">Minhas Coreografias</mat-list-item>
+                <mat-list-item role="listitem" class="listitem">
                     <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
                         <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
                             <button mat-icon-button disabled></button>
@@ -25,7 +30,7 @@
 
 
 
-                <mat-list-item role="listitem">Meus dados</mat-list-item>
+                <mat-list-item role="listitem" class="listitem">Meus dados</mat-list-item>
             </mat-list>
         </mat-drawer>
 
