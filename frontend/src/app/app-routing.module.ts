@@ -5,6 +5,7 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { PrincipalHomeComponent } from './pages/principal-home/principal-home.component';
 import { QuestionsPageComponent } from './pages/questions-page/questions-page.component';
 import { DashboardComponent } from './pages/principal-home/dashboard/dashboard.component';
+import { ChoreographyComponent } from './pages/principal-home/choreography/choreography.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,11 @@ const routes: Routes = [
         pathMatch: 'full',
         path: 'dashboard',
         component: DashboardComponent
+      },
+      {
+        pathMatch: 'full',
+        path: 'choreography',
+        component: ChoreographyComponent
       }
 
     ]

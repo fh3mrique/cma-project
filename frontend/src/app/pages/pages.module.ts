@@ -7,6 +7,7 @@ import { PrincipalHomeComponent } from './principal-home/principal-home.componen
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { QuestionsPageComponent } from './questions-page/questions-page.component';
 import { DashboardComponent } from './principal-home/dashboard/dashboard.component';
+import { ChoreographyComponent } from './principal-home/choreography/choreography.component';
 
 
 
@@ -17,6 +18,7 @@ import { DashboardComponent } from './principal-home/dashboard/dashboard.compone
         PrincipalHomeComponent,
         QuestionsPageComponent,
         DashboardComponent,
+        ChoreographyComponent,
     ],
     imports: [
         CommonModule,
