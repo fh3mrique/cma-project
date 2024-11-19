@@ -6,6 +6,7 @@ import { PrincipalHomeComponent } from './pages/principal-home/principal-home.co
 import { QuestionsPageComponent } from './pages/questions-page/questions-page.component';
 import { DashboardComponent } from './pages/principal-home/dashboard/dashboard.component';
 import { ChoreographyComponent } from './pages/principal-home/choreography/choreography.component';
+import { MyDataComponent } from './pages/principal-home/my-data/my-data.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,11 @@ const routes: Routes = [
         pathMatch: 'full',
         path: 'choreography',
         component: ChoreographyComponent
+      },
+      {
+        pathMatch: 'full',
+        path: 'my-data',
+        component: MyDataComponent
       }
 
     ]

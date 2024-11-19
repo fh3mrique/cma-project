@@ -8,6 +8,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 import { QuestionsPageComponent } from './questions-page/questions-page.component';
 import { DashboardComponent } from './principal-home/dashboard/dashboard.component';
 import { ChoreographyComponent } from './principal-home/choreography/choreography.component';
+import { MyDataComponent } from './principal-home/my-data/my-data.component';
 
 
 
@@ -19,6 +20,7 @@ import { ChoreographyComponent } from './principal-home/choreography/choreograph
         QuestionsPageComponent,
         DashboardComponent,
         ChoreographyComponent,
+        MyDataComponent,
     ],
     imports: [
         CommonModule,
