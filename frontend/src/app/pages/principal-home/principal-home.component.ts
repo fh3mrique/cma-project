@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./principal-home.component.scss']
 })
 export class PrincipalHomeComponent {
+  showFiller = false;
 
 }

@@ -1,4 +1,18 @@
-<!-- <mat-drawer-container class="example-container">
-    <mat-drawer mode="side" opened>Drawer content</mat-drawer>
-    <mat-drawer-content>Main content</mat-drawer-content>
-</mat-drawer-container> -->
+<div class="principal-home">
+    <mat-drawer-container class="example-container" autosize>
+        <mat-drawer #drawer class="sidenav" mode="side">
+            <mat-list role="list">
+                <mat-list-item role="listitem">Dashboard</mat-list-item>
+                <mat-list-item role="listitem">Minhas Coreografias</mat-list-item>
+                <mat-list-item role="listitem">Item 3</mat-list-item>
+            </mat-list>
+        </mat-drawer>
+
+        <div class="sidenav-content">
+            <button type="button" mat-button (click)="drawer.toggle()">
+                Toggle sidenav
+            </button>
+        </div>
+
+    </mat-drawer-container>
+</div>

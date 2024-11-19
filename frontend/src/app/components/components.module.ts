@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { ButtonHomeComponent } from './button-home/button-home.component';
 import { DefaultInputComponent } from './default-input/default-input.component';
 import { QuestionnaireComponent } from './questionnaire/questionnaire.component';
+import { AngularMaterialModule } from '../angular-material/angular-material.module';
 
 
 
@@ -12,16 +13,18 @@ import { QuestionnaireComponent } from './questionnaire/questionnaire.component'
     HeaderComponent,
     ButtonHomeComponent,
     DefaultInputComponent,
-    QuestionnaireComponent
+    QuestionnaireComponent,
   ],
   imports: [
     CommonModule,
+    AngularMaterialModule
   ],
   exports: [
     HeaderComponent,
     ButtonHomeComponent,
     DefaultInputComponent,
-    QuestionnaireComponent
+    QuestionnaireComponent,
+    AngularMaterialModule
   ]
 })
 export class ComponentsModule { }

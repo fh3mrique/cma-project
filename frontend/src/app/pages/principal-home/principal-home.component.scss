@@ -1,17 +1,19 @@
-.nav-bar {
-    width: 340px;
+.principal-home {
+    height: 100vh; /* Define a altura para ocupar toda a janela */
     display: flex;
-    justify-content: center;
-    background-color: white;
-    height: calc( 100vh - 115px);
+    flex-direction: column;
+}
 
-    &__image {
-        img {
-            width: 134px;
-            height: 134px;
-            border-radius: 100%;
+.example-container {
+    height: 100%; /* Garante que o mat-drawer-container ocupe toda a altura disponível */
+}
 
-        }
+.sidenav {
+    height: 100%; /* Faz o mat-drawer ocupar toda a altura do container */
+    background-color: #f4f4f4; /* Cor de fundo opcional */
+}
 
-    }
+.sidenav-content {
+    padding: 16px;
+    flex-grow: 1; /* Expande o conteúdo restante */
 }
