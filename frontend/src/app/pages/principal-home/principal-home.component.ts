@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FlatTreeControl } from '@angular/cdk/tree';
 import { MatTreeFlatDataSource, MatTreeFlattener } from '@angular/material/tree';
+import { RouterLink } from '@angular/router';
 
 interface TreeNode {
   name: string;
@@ -26,7 +27,7 @@ const TREE_DATA: TreeNode[] = [
 @Component({
   selector: 'app-principal-home',
   templateUrl: './principal-home.component.html',
-  styleUrls: ['./principal-home.component.scss']
+  styleUrls: ['./principal-home.component.scss'],
 })
 export class PrincipalHomeComponent {
   showFiller = true;

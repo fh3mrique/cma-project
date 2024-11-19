@@ -7,9 +7,7 @@
                 <p class="top-image-menu__address">Pernambuco, BR</p>
             </div>
             <mat-list role="list" class="list-itens-nav">
-                <mat-list-item role="listitem" class="listitem">
-                    Dashboard
-                </mat-list-item>
+                <mat-list-item role="listitem" class="listitem" routerLink="dashboard">Dashboard </mat-list-item>
                 <mat-list-item role="listitem" class="listitem">Minhas Coreografias</mat-list-item>
                 <mat-list-item role="listitem" class="listitem">
                     <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
@@ -36,6 +34,8 @@
 
         <div class="sidenav-content">
             <button type="button" mat-button (click)="drawer.toggle()">Toggle sidenav</button>
+            <router-outlet></router-outlet>
+            
         </div>
     </mat-drawer-container>
 </div>

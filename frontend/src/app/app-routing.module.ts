@@ -4,6 +4,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { PrincipalHomeComponent } from './pages/principal-home/principal-home.component';
 import { QuestionsPageComponent } from './pages/questions-page/questions-page.component';
+import { DashboardComponent } from './pages/principal-home/dashboard/dashboard.component';
 
 const routes: Routes = [
   {
@@ -23,7 +24,15 @@ const routes: Routes = [
   },
   {
     path: 'principal',
-    component: PrincipalHomeComponent
+    component: PrincipalHomeComponent,
+    children: [
+      {
+        pathMatch: 'full',
+        path: 'dashboard',
+        component: DashboardComponent
+      }
+
+    ]
   },
   {
     path: 'vark-questionare',
